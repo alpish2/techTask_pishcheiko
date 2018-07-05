@@ -1,0 +1,11 @@
+14:04:12,794  INFO CarsSearchTest:21  
+
+carsSearchTest started ...
+14:04:12,815 ERROR Data:24  Something went wrongjava.io.FileNotFoundException: src\test\java\sdl\lcs\techTask.resources.data\TestData.properties (The system cannot find the path specified)
+14:04:21,550  INFO HomePage:41  Current URL is https://www.donedeal.co.uk/
+14:04:21,550  INFO CarsSearchTest:28  carsSearchTest completed successfully
+--------------------
+
+
+
+
