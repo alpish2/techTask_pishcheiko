@@ -39,6 +39,12 @@ public class HomePage {
     @FindBy(css = "button.search-hero-btn")
     private WebElement searchIconOnSearchPanel;
 
+   @FindBy(css = "a.landing-cta-place-ad.trackable")
+    private WebElement signUpIcon;
+
+    @FindBy(css = "span.header-menu-name")
+    private WebElement userIconInTheRightUpperCorner;
+
 
     public void goToPage(String url) throws InterruptedException {
         wd.navigate().to(url);
@@ -100,7 +106,6 @@ public class HomePage {
     }
 
     public void selectYear(String yearFrom, String yearTo) throws InterruptedException {
-
         yearMenu.click();
         Thread.sleep(3000);
 
@@ -129,6 +134,23 @@ public class HomePage {
 
     public void clickSearchIcon() {
         searchIconOnSearchPanel.click();
+        logger.info("Search icon clicked.");
+    }
+
+    public void clickSignUpIcon() {
+        signUpIcon.click();
+        logger.info("Search icon clicked.");
+    }
+
+    public void verifyLogin(String name) {
+        if (!userIconInTheRightUpperCorner.getAttribute("textContent").equals(name)){
+            AssertionError assertError = new AssertionError("User may not be logged in.");
+            logger.error(assertError.getMessage(), assertError);
+            logger.error("Current user name: "+ userIconInTheRightUpperCorner.getAttribute("textContent"));
+            Assert.fail();
+        }
+            logger.info("User " + name + " is logged in successfully");
+        userIconInTheRightUpperCorner.click();
     }
 
 

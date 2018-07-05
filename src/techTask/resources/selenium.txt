@@ -1,41 +1,115 @@
-18:00:08,551  INFO CarsSearchTest:21  
+15:42:33,875  INFO CarsSearchTest:21  
 
 carsSearchTest started ...
-18:00:17,140  INFO HomePage:52  Current URL is https://www.donedeal.co.uk/
-18:00:22,642  INFO HomePage:62  Cars & Motor tab on search panel clicked.
-18:00:22,829  INFO HomePage:72  Cars selected in 'Search For' drop down.
-18:00:26,107  INFO HomePage:81  Price menu selected.
-18:00:26,477  INFO HomePage:91  Price From: €1,000 selected.
-18:00:26,867  INFO HomePage:96  Price To: €10,000 selected.
-18:00:27,123  INFO HomePage:99  Close button on Price menu clicked.
-18:00:30,430  INFO HomePage:109  Year menu selected.
-18:00:30,831  INFO HomePage:119  Year From: 162 selected.
-18:00:31,151  INFO HomePage:124  Year To: 181 selected.
-18:00:31,401  INFO HomePage:127  Close button on Year menu clicked.
-18:00:34,040 ERROR CarsPage:65  Price for current item is not correct
-java.lang.AssertionError: Price for current item is not correct
-	at techTask.resources.pageobjects.CarsPage.verifyThatPriceFilterIsApplied(CarsPage.java:64)
-	at techTask.resources.tests.CarsSearchTest.carsSearchTest(CarsSearchTest.java:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
-18:00:34,043 ERROR CarsPage:66  Price is 39040.It should be from 1000 to 10000
+15:42:41,926  INFO HomePage:58  Current URL is https://www.donedeal.co.uk/
+15:42:47,431  INFO HomePage:68  Cars & Motor tab on search panel clicked.
+15:42:47,651  INFO HomePage:78  Cars selected in 'Search For' drop down.
+15:42:50,921  INFO HomePage:87  Price menu selected.
+15:42:51,287  INFO HomePage:97  Price From: €1,000 selected.
+15:42:51,678  INFO HomePage:102  Price To: €10,000 selected.
+15:42:51,923  INFO HomePage:105  Close button on Price menu clicked.
+15:42:55,257  INFO HomePage:114  Year menu selected.
+15:42:55,654  INFO HomePage:124  Year From: 162 selected.
+15:42:56,003  INFO HomePage:129  Year To: 181 selected.
+15:42:56,247  INFO HomePage:132  Close button on Year menu clicked.
+15:42:59,030  INFO HomePage:137  Search icon clicked.
+15:42:59,108  INFO CarsPage:68  Price is 7000
+15:42:59,265  INFO CarsPage:68  Price is 9995
+15:42:59,374  INFO CarsPage:68  Price is 9950
+15:42:59,484  INFO CarsPage:68  Price is 8995
+15:42:59,577  INFO CarsPage:68  Price is 137950
+15:42:59,609  INFO CarsPage:72  There is a Brand New vehicle that is not filtered out
+15:42:59,687  INFO CarsPage:68  Price is 9950
+15:42:59,809  INFO CarsPage:68  Price is 7000
+15:42:59,905  INFO CarsPage:68  Price is 9660
+15:43:00,014  INFO CarsPage:68  Price is 9150
+15:43:00,123  INFO CarsPage:68  Price is 22250
+15:43:00,155  INFO CarsPage:72  There is a Brand New vehicle that is not filtered out
+15:43:00,226  INFO CarsPage:68  Price is 9250
+15:43:00,335  INFO CarsPage:68  Price is 7500
+15:43:00,460  INFO CarsPage:68  Price is 9900
+15:43:00,585  INFO CarsPage:68  Price is 9900
+15:43:00,679  INFO CarsPage:68  Price is 10900
+15:43:00,768  INFO CarsPage:72  There is a Brand New vehicle that is not filtered out
+15:43:00,817  INFO CarsPage:68  Price is 9950
+15:43:00,938  INFO CarsPage:68  Price is 9950
+15:43:01,032  INFO CarsPage:68  Price is 8900
+15:43:01,141  INFO CarsPage:68  Price is 9995
+15:43:01,236  INFO CarsPage:68  Price is 29360
+15:43:01,315  INFO CarsPage:72  There is a Brand New vehicle that is not filtered out
+15:43:01,330  INFO CarsPage:68  Price is 7750
+15:43:01,440  INFO CarsPage:68  Price is 6750
+15:43:01,549  INFO CarsPage:68  Price is 8890
+15:43:01,643  INFO CarsPage:68  Price is 9495
+15:43:01,752  INFO CarsPage:68  Price is 8890
+15:43:01,858  INFO CarsPage:68  Price is 8890
+15:43:01,952  INFO CarsPage:68  Price is 8485
+15:43:02,062  INFO CarsPage:68  Price is 8650
+15:43:02,155  INFO CarsPage:68  Price is 8950
+15:43:02,252  INFO CarsPage:68  Price is 8285
+15:43:02,362  INFO CarsPage:68  Price is 7995
+15:43:02,471  INFO CarsPage:68  Price is 9950
+15:43:02,580  INFO CarsPage:68  Price is 9750
+15:43:02,690  INFO CarsPage:68  Price is 1900
+15:43:03,035  INFO CarsPage:53  Next Page icon clicked.
+15:43:03,066  INFO CarsPage:68  Price is 7000
+15:43:03,175  INFO CarsPage:68  Price is 9995
+15:43:03,268  INFO CarsPage:68  Price is 9950
+15:43:03,362  INFO CarsPage:68  Price is 8995
+15:43:03,472  INFO CarsPage:68  Price is 137950
+15:43:03,487  INFO CarsPage:72  There is a Brand New vehicle that is not filtered out
+15:43:03,565  INFO CarsPage:68  Price is 9950
+15:43:03,717  INFO CarsPage:68  Price is 7000
+15:43:03,889  INFO CarsPage:68  Price is 9660
+15:43:03,998  INFO CarsPage:68  Price is 9150
+15:43:08,171  INFO SignUpTest:21  
+
+signUpTest started ...
+15:43:16,543  INFO HomePage:58  Current URL is https://www.donedeal.co.uk/
+15:43:18,085  INFO HomePage:142  Search icon clicked.
+15:43:19,009  INFO LoginPage:62  Sign Up linked clicked.
+15:43:24,026  INFO LoginPage:131  Verifying Email field...
+15:43:24,026  INFO LoginPage:132  Checking case when field is empty...
+15:43:24,814  INFO LoginPage:135  Pressed Sign Up button
+15:43:24,904  INFO LoginPage:137  Error message appears: 'Please enter your email address.
+15:43:24,904  INFO LoginPage:139  Checking cases when email is not valid...
+15:43:24,951  INFO LoginPage:69  Typed email = 123
+15:43:25,187  INFO LoginPage:142  Pressed Sign Up button
+15:43:25,240  INFO LoginPage:144  Error message appears: 'Please enter your email address.
+15:43:25,271  INFO LoginPage:69  Typed email = 123@
+15:43:25,511  INFO LoginPage:148  Pressed Sign Up button
+15:43:25,574  INFO LoginPage:150  Error message appears: 'Please enter your email address.
+15:43:25,620  INFO LoginPage:69  Typed email = 123@123
+15:43:26,528  INFO LoginPage:154  Pressed Sign Up button
+15:43:26,591  INFO LoginPage:156  Error message appears: 'Please enter a valid email address.
+15:43:26,622  INFO LoginPage:69  Typed email = 4123@123.
+15:43:26,853  INFO LoginPage:160  Pressed Sign Up button
+15:43:26,888  INFO LoginPage:162  Error message appears: 'Please enter a valid email address.
+15:43:26,934  INFO LoginPage:69  Typed email = alpi123@gmail.com
+15:43:26,934  INFO LoginPage:169  Verifying Password field...
+15:43:26,934  INFO LoginPage:170  Checking case when field is empty...
+15:43:27,610  INFO LoginPage:173  Pressed Sign Up button
+15:43:27,657  INFO LoginPage:175  Error message appears: 'Please enter your name.
+15:43:27,657  INFO LoginPage:177  Checking case when password is less than 5 characters...
+15:43:27,704  INFO LoginPage:75  Typed password = 123
+15:43:28,405  INFO LoginPage:180  Pressed Sign Up button
+15:43:28,483  INFO LoginPage:182  Error message appears: 'Please enter your name.
+15:43:28,530  INFO LoginPage:75  Typed password = 12345
+15:43:28,530  INFO LoginPage:189  Verifying  Name field...
+15:43:28,530  INFO LoginPage:190  Checking case when field is empty...
+15:43:29,234  INFO LoginPage:193  Pressed Sign Up button
+15:43:29,343  INFO LoginPage:195  Error message appears: 'You must agree to the terms of use.
+15:43:29,374  INFO LoginPage:81  Typed name = Sara
+15:43:29,437  INFO LoginPage:81  Typed name = alpi123@gmail.com
+15:43:29,468  INFO LoginPage:75  Typed password = 12345
+15:43:29,499  INFO LoginPage:81  Typed name = Sara
+15:43:29,765  INFO LoginPage:87  Terms Of Use checkbox ticked
+15:43:30,059  INFO LoginPage:93  No updates checkbox ticked
+15:43:36,496  INFO LoginPage:99  Pressed sign Up button
+15:43:41,576  INFO HomePage:152  User Sara is logged in successfully
+15:43:42,279  INFO SignUpTest:48  signUpTest completed successfully
+--------------------
+
+
+
+
