@@ -40,7 +40,7 @@ public class HomePage {
     private WebElement searchIconOnSearchPanel;
 
    @FindBy(css = "a.landing-cta-place-ad.trackable")
-    private WebElement signUpIcon;
+    private WebElement placeAdIcon;
 
     @FindBy(css = "span.header-menu-name")
     private WebElement userIconInTheRightUpperCorner;
@@ -137,8 +137,8 @@ public class HomePage {
         logger.info("Search icon clicked.");
     }
 
-    public void clickSignUpIcon() {
-        signUpIcon.click();
+    public void clickPlaceAdIcon() {
+        placeAdIcon.click();
         logger.info("Search icon clicked.");
     }
 

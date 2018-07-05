@@ -11,7 +11,7 @@ import java.net.MalformedURLException;
 /**
  * Created by opishcheiko on 6/25/2018.
  */
-public class SignUpTest {
+public class PlaceAdTest {
     String dividingLine = "\n--------------------\n\n\n\n";
 
     @Test
@@ -21,7 +21,7 @@ public class SignUpTest {
         logger.info("\n\nsignUpTest started ...");
 
         app.homePage.goToPage(Data.GetValue("DoneDealURL"));
-        app.homePage.clickSignUpIcon();
+        app.homePage.clickPlaceAdIcon();
         app.loginPage.clickSignUpLink();
         app.loginPage.requiredFieldsVerification(
                 Data.GetValue("Email1"),
@@ -48,5 +48,5 @@ public class SignUpTest {
         logger.info("signUpTest completed successfully" + dividingLine);
     }
 
-    final static Logger logger = LogManager.getLogger(SignUpTest.class);
+    final static Logger logger = LogManager.getLogger(PlaceAdTest.class);
 }
